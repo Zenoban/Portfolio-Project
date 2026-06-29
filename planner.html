@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner · Imtithal Aliyu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <nav class="floating-nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-dot"></span>
+        Imtithal
+      </a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html" class="active">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="announcement-bar">
+        Cybersecurity Student · Aspiring Ethical Hacker · Red Team Enthusiast
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <h1 class="section-header fade-in-up">Academic Planner</h1>
+          <p class="section-text fade-in-up delay-1" style="margin-bottom: var(--spacing-48);">
+            Manage your academic tasks, assignments, and study goals. Add tasks, mark them 
+            as completed, or remove them as needed.
+          </p>
+
+          <div class="task-stats fade-in-up delay-1" id="taskStats">
+            <div class="stat">
+              <div class="stat-value" id="totalCount">0</div>
+              <div class="stat-label">Total Tasks</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value" id="completedCount">0</div>
+              <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value" id="pendingCount">0</div>
+              <div class="stat-label">Pending</div>
+            </div>
+          </div>
+
+          <div class="planner-header fade-in-up delay-2">
+            <input type="text" id="taskInput" class="form-input" placeholder="Enter a new task..." aria-label="New task">
+            <input type="date" id="dateInput" class="form-input" style="max-width: 180px; flex: none;" aria-label="Task date">
+            <button id="addTaskBtn" class="btn btn-primary">Add Task</button>
+          </div>
+
+          <div class="table-wrapper fade-in-up delay-2" id="plannerTable">
+            <ul class="task-list" id="taskList">
+            </ul>
+            <div class="empty-state" id="emptyState">
+              No tasks yet. Add one above to get started!
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-pale">
+        <div class="container">
+          <h2 class="section-subheader fade-in-up">Weekly Study Schedule</h2>
+          <div class="table-wrapper fade-in-up delay-1" style="margin-top: var(--spacing-24);">
+            <table>
+              <thead>
+                <tr>
+                  <th>Day</th>
+                  <th>Morning</th>
+                  <th>Afternoon</th>
+                  <th>Evening</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Monday</strong></td>
+                  <td>Network Security</td>
+                  <td>Penetration Testing Lab</td>
+                  <td>Study / Review</td>
+                </tr>
+                <tr>
+                  <td><strong>Tuesday</strong></td>
+                  <td>Web Technologies (COS 106)</td>
+                  <td>Programming Practice</td>
+                  <td>CTF Challenges</td>
+                </tr>
+                <tr>
+                  <td><strong>Wednesday</strong></td>
+                  <td>Cryptography</td>
+                  <td>Vulnerability Research</td>
+                  <td>Study / Review</td>
+                </tr>
+                <tr>
+                  <td><strong>Thursday</strong></td>
+                  <td>Operating Systems</td>
+                  <td>Tool Building (Python)</td>
+                  <td>CTF Challenges</td>
+                </tr>
+                <tr>
+                  <td><strong>Friday</strong></td>
+                  <td>Ethical Hacking</td>
+                  <td>Lab Work</td>
+                  <td>Weekly Review</td>
+                </tr>
+                <tr>
+                  <td><strong>Saturday</strong></td>
+                  <td>Capture The Flag</td>
+                  <td>Project Work</td>
+                  <td>Rest</td>
+                </tr>
+                <tr>
+                  <td><strong>Sunday</strong></td>
+                  <td>Rest</td>
+                  <td>Light Study / Reading</td>
+                  <td>Plan Next Week</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">
+              Imtithal Aliyu<span class="footer-brand-dot"></span>
+            </div>
+            <p class="footer-text">
+              Cybersecurity student at MIVA Open University. Aspiring ethical hacker and 
+              penetration tester committed to building a safer digital world.
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-heading">Navigate</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="planner.html">Planner</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Connect</h4>
+            <ul class="footer-links">
+              <li><a href="contact.html">Email Me</a></li>
+              <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2025 Imtithal Aliyu. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/planner.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

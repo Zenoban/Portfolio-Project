@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · Imtithal Aliyu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <nav class="floating-nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-dot"></span>
+        Imtithal
+      </a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="announcement-bar">
+        Cybersecurity Student · Aspiring Ethical Hacker · Red Team Enthusiast
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <h1 class="section-header fade-in-up">My Projects</h1>
+          <p class="section-text fade-in-up delay-1" style="margin-bottom: var(--spacing-48);">
+            A collection of security-focused projects demonstrating my skills in penetration 
+            testing, vulnerability assessment, and security tool development.
+          </p>
+
+          <article class="card-row fade-in-up" style="margin-bottom: var(--spacing-64);">
+            <div>
+              <span class="card-badge">Penetration Testing</span>
+              <h2 class="section-subheader">Network Vulnerability Assessment</h2>
+              <p class="section-text" style="margin-bottom: var(--spacing-16);">
+                Conducted a full-scope penetration test on a simulated corporate network 
+                infrastructure. The assessment included external and internal network scanning, 
+                web application testing, wireless security evaluation, and social engineering 
+                simulations.
+              </p>
+              <ul class="content-list" style="margin-bottom: var(--spacing-24);">
+                <li><strong>Scope:</strong> 50+ hosts across 4 subnets</li>
+                <li><strong>Findings:</strong> 12 critical, 8 high, 15 medium severity vulnerabilities</li>
+                <li><strong>Tools:</strong> Nmap, Burp Suite, Metasploit, Wireshark</li>
+                <li><strong>Deliverable:</strong> Comprehensive penetration test report with remediation recommendations</li>
+              </ul>
+              <div style="display: flex; gap: var(--spacing-8); flex-wrap: wrap;">
+                <a href="#" class="btn btn-primary">View Report →</a>
+                <a href="#" class="btn-ghost-link">GitHub Repo</a>
+                <a href="#" class="btn-ghost-link">Live Demo</a>
+              </div>
+            </div>
+            <div>
+              <div class="card-row-image" style="margin-bottom: var(--spacing-8);">
+                <div style="padding: var(--spacing-48); text-align: center; background-color: var(--color-pale-stone);">
+                  <svg width="200" height="160" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="20" width="180" height="120" rx="8" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <circle cx="60" cy="60" r="15" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <circle cx="100" cy="50" r="10" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <circle cx="140" cy="70" r="12" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <line x1="60" y1="60" x2="100" y2="50" stroke="#1c3a13" stroke-width="1" stroke-dasharray="3 3"/>
+                    <line x1="100" y1="50" x2="140" y2="70" stroke="#1c3a13" stroke-width="1" stroke-dasharray="3 3"/>
+                    <line x1="60" y1="60" x2="140" y2="70" stroke="#1c3a13" stroke-width="1" stroke-dasharray="3 3"/>
+                    <text x="100" y="110" text-anchor="middle" fill="#1c3a13" font-size="10" font-family="ui-sans-serif">Network Map</text>
+                  </svg>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--spacing-8);">
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="30" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Nmap Scan</text>
+                    <text x="40" y="50" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Recon</text>
+                  </svg>
+                </div>
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="30" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Burp Suite</text>
+                    <text x="40" y="50" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Exploit</text>
+                  </svg>
+                </div>
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="30" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Report PDF</text>
+                    <text x="40" y="50" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Results</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card-row fade-in-up delay-1" style="margin-bottom: var(--spacing-64);">
+            <div>
+              <div class="card-row-image" style="margin-bottom: var(--spacing-8);">
+                <div style="padding: var(--spacing-48); text-align: center; background-color: var(--color-pale-stone);">
+                  <svg width="200" height="160" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="30" y="20" width="140" height="40" rx="4" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <text x="100" y="45" text-anchor="middle" fill="#1c3a13" font-size="9" font-family="ui-sans-serif">username' OR '1'='1</text>
+                    <rect x="30" y="75" width="140" height="40" rx="4" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <text x="100" y="100" text-anchor="middle" fill="#1c3a13" font-size="9" font-family="ui-sans-serif">SELECT * FROM users</text>
+                    <line x1="100" y1="60" x2="100" y2="75" stroke="#1c3a13" stroke-width="1.5"/>
+                    <text x="100" y="140" text-anchor="middle" fill="#1c3a13" font-size="10" font-family="ui-sans-serif">SQL Injection Lab</text>
+                  </svg>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--spacing-8);">
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="25" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Login</text>
+                    <text x="40" y="40" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Bypass</text>
+                  </svg>
+                </div>
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="25" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Blind</text>
+                    <text x="40" y="40" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Injection</text>
+                  </svg>
+                </div>
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="25" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Database</text>
+                    <text x="40" y="40" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Dump</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span class="card-badge">Web Security</span>
+              <h2 class="section-subheader">SQL Injection Lab</h2>
+              <p class="section-text" style="margin-bottom: var(--spacing-16);">
+                Built a deliberately vulnerable web application to demonstrate and study SQL 
+                injection techniques. The lab includes multiple injection scenarios to practice 
+                UNION-based, error-based, blind boolean, and time-based SQL injection vectors.
+              </p>
+              <ul class="content-list" style="margin-bottom: var(--spacing-24);">
+                <li><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS, JavaScript</li>
+                <li><strong>Vulnerabilities:</strong> 5 distinct SQL injection scenarios</li>
+                <li><strong>Difficulty Levels:</strong> Beginner to Advanced</li>
+                <li><strong>Use Case:</strong> Training environment for aspiring security professionals</li>
+              </ul>
+              <div style="display: flex; gap: var(--spacing-8); flex-wrap: wrap;">
+                <a href="#" class="btn btn-primary">Try the Lab →</a>
+                <a href="#" class="btn-ghost-link">GitHub Repo</a>
+                <a href="#" class="btn-ghost-link">Documentation</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card-row fade-in-up delay-2" style="margin-bottom: var(--spacing-64);">
+            <div>
+              <span class="card-badge">Security Tooling</span>
+              <h2 class="section-subheader">Port Scanner in Python</h2>
+              <p class="section-text" style="margin-bottom: var(--spacing-16);">
+                Developed a multi-threaded port scanner in Python with service fingerprinting, 
+                banner grabbing, and scan result visualization. The tool supports TCP SYN scan, 
+                TCP connect scan, and UDP scan modes.
+              </p>
+              <ul class="content-list" style="margin-bottom: var(--spacing-24);">
+                <li><strong>Language:</strong> Python 3</li>
+                <li><strong>Features:</strong> Multi-threading, banner grabbing, service detection</li>
+                <li><strong>Output:</strong> JSON, CSV, and interactive HTML reports</li>
+                <li><strong>Performance:</strong> Scans 1000 ports in under 30 seconds</li>
+              </ul>
+              <div style="display: flex; gap: var(--spacing-8); flex-wrap: wrap;">
+                <a href="#" class="btn btn-primary">View on GitHub →</a>
+                <a href="#" class="btn-ghost-link">Download Tool</a>
+                <a href="#" class="btn-ghost-link">Documentation</a>
+              </div>
+            </div>
+            <div>
+              <div class="card-row-image" style="margin-bottom: var(--spacing-8);">
+                <div style="padding: var(--spacing-48); text-align: center; background-color: var(--color-pale-stone);">
+                  <svg width="200" height="160" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="20" y="15" width="160" height="30" rx="4" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                    <text x="100" y="34" text-anchor="middle" fill="#1c3a13" font-size="9" font-family="ui-sans-serif">Terminal: Port Scanner</text>
+                    <text x="30" y="60" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">$ python scanner.py -t 192.168.1.1</text>
+                    <text x="30" y="75" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">[+] Host: 192.168.1.1</text>
+                    <text x="30" y="88" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">[+] Port 22: OPEN (SSH)</text>
+                    <text x="30" y="101" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">[+] Port 80: OPEN (HTTP)</text>
+                    <text x="30" y="114" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">[+] Port 443: OPEN (HTTPS)</text>
+                    <text x="30" y="127" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">[+] Scan completed: 12 ports open</text>
+                  </svg>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--spacing-8);">
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="25" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">TCP SYN</text>
+                    <text x="40" y="40" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Scan</text>
+                  </svg>
+                </div>
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="25" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">Service</text>
+                    <text x="40" y="40" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Fingerprint</text>
+                  </svg>
+                </div>
+                <div style="padding: var(--spacing-16); text-align: center; background-color: var(--color-pale-stone); border-radius: var(--radius-cards);">
+                  <svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="70" height="40" rx="4" stroke="#1c3a13" stroke-width="1" fill="none"/>
+                    <text x="40" y="25" text-anchor="middle" fill="#1c3a13" font-size="6" font-family="ui-sans-serif">HTML</text>
+                    <text x="40" y="40" text-anchor="middle" fill="#1c3a13" font-size="5" font-family="ui-sans-serif">Report</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card-row fade-in-up delay-3">
+            <div class="card-row-image">
+              <div style="padding: var(--spacing-48); text-align: center; background-color: var(--color-pale-stone);">
+                <svg width="200" height="160" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="40" y="20" width="120" height="120" rx="8" stroke="#1c3a13" stroke-width="1.5" fill="none"/>
+                  <text x="100" y="70" text-anchor="middle" fill="#1c3a13" font-size="10" font-family="ui-sans-serif">🔐</text>
+                  <text x="100" y="95" text-anchor="middle" fill="#1c3a13" font-size="9" font-family="ui-sans-serif">CTF Challenges</text>
+                  <text x="100" y="115" text-anchor="middle" fill="#1c3a13" font-size="8" font-family="ui-sans-serif">Capture The Flag</text>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <span class="card-badge">CTF</span>
+              <h2 class="section-subheader">Capture The Flag Challenges</h2>
+              <p class="section-text" style="margin-bottom: var(--spacing-16);">
+                Participated in multiple CTF competitions covering web exploitation, cryptography, 
+                reverse engineering, forensics, and binary exploitation. Documented solve 
+                strategies and techniques for each challenge.
+              </p>
+              <ul class="content-list" style="margin-bottom: var(--spacing-24);">
+                <li><strong>Platforms:</strong> Hack The Box, TryHackMe, CTFtime</li>
+                <li><strong>Categories:</strong> Web, Crypto, Forensics, Reverse Engineering</li>
+                <li><strong>Ranking:</strong> Top 15% on Hack The Box</li>
+                <li><strong>Write-ups:</strong> Detailed solution documentation for each challenge</li>
+              </ul>
+              <div style="display: flex; gap: var(--spacing-8); flex-wrap: wrap;">
+                <a href="#" class="btn btn-primary">Read Write-ups →</a>
+                <a href="#" class="btn-ghost-link">Hack The Box</a>
+                <a href="#" class="btn-ghost-link">TryHackMe</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-dark">
+        <div class="container">
+          <h2 class="section-header fade-in-up">Skills &amp; Tools</h2>
+          <div class="tags fade-in-up delay-1" style="margin-top: var(--spacing-24);">
+            <span class="tag tag-lime">Nmap</span>
+            <span class="tag tag-lime">Burp Suite</span>
+            <span class="tag tag-lime">Metasploit</span>
+            <span class="tag tag-lime">Wireshark</span>
+            <span class="tag tag-lime">Python</span>
+            <span class="tag tag-lime">Linux</span>
+            <span class="tag tag-lime">SQL</span>
+            <span class="tag tag-lime">PHP</span>
+            <span class="tag tag-lime">JavaScript</span>
+            <span class="tag tag-lime">HTML/CSS</span>
+            <span class="tag tag-lime">Git</span>
+            <span class="tag tag-lime">OWASP Top 10</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">
+              Imtithal Aliyu<span class="footer-brand-dot"></span>
+            </div>
+            <p class="footer-text">
+              Cybersecurity student at MIVA Open University. Aspiring ethical hacker and 
+              penetration tester committed to building a safer digital world.
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-heading">Navigate</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="planner.html">Planner</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Connect</h4>
+            <ul class="footer-links">
+              <li><a href="contact.html">Email Me</a></li>
+              <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2025 Imtithal Aliyu. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

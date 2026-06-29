@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · Imtithal Aliyu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <nav class="floating-nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-dot"></span>
+        Imtithal
+      </a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="announcement-bar">
+        Cybersecurity Student · Aspiring Ethical Hacker · Red Team Enthusiast
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="card-row">
+            <div class="fade-in-up">
+              <h1 class="section-header" style="margin-bottom: var(--spacing-16);">Get in Touch</h1>
+              <p class="section-text" style="margin-bottom: var(--spacing-32);">
+                Have a question, want to collaborate on a security project, or just want to 
+                connect? Send me a message and I'll get back to you as soon as possible.
+              </p>
+
+              <div style="margin-bottom: var(--spacing-24);">
+                <h3 style="font-weight: 400; font-size: var(--text-body); letter-spacing: -0.4px; margin-bottom: var(--spacing-8);">Email</h3>
+                <p style="font-weight: 350; font-size: var(--text-body); letter-spacing: -0.4px; color: var(--color-forest-canopy);">i.aliyu8506@miva.edu.ng</p>
+              </div>
+
+              <div style="margin-bottom: var(--spacing-24);">
+                <h3 style="font-weight: 400; font-size: var(--text-body); letter-spacing: -0.4px; margin-bottom: var(--spacing-8);">Phone</h3>
+                <p style="font-weight: 350; font-size: var(--text-body); letter-spacing: -0.4px; color: var(--color-forest-canopy);">08166450319</p>
+              </div>
+
+              <div style="margin-bottom: var(--spacing-24);">
+                <h3 style="font-weight: 400; font-size: var(--text-body); letter-spacing: -0.4px; margin-bottom: var(--spacing-8);">Location</h3>
+                <p style="font-weight: 350; font-size: var(--text-body); letter-spacing: -0.4px; color: var(--color-forest-canopy);">Nigeria</p>
+              </div>
+
+
+            </div>
+
+            <div class="fade-in-up delay-1">
+              <form id="contactForm" novalidate style="border: 1px solid var(--color-forest-canopy); border-radius: var(--radius-2xl); padding: var(--spacing-32);">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                  <span class="error-text" id="nameError">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" class="form-input" placeholder="Enter your email address" required>
+                  <span class="error-text" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" class="form-input" placeholder="Enter your phone number (digits only)" required>
+                  <span class="error-text" id="phoneError">Please enter a valid phone number (digits only).</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" class="form-input" placeholder="Write your message here..." required></textarea>
+                  <span class="error-text" id="messageError">Please enter your message.</span>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 0;">
+                  <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </div>
+
+                <div id="formSuccess" style="display: none; margin-top: var(--spacing-16); padding: var(--spacing-16); background-color: var(--color-lime-sprout); border-radius: var(--radius-tags); text-align: center; font-weight: 400; font-size: var(--text-body-sm); letter-spacing: -0.42px; color: var(--color-forest-canopy);">
+                  Message sent successfully! I'll get back to you soon.
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">
+              Imtithal Aliyu<span class="footer-brand-dot"></span>
+            </div>
+            <p class="footer-text">
+              Cybersecurity student at MIVA Open University. Aspiring ethical hacker and 
+              penetration tester committed to building a safer digital world.
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-heading">Navigate</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="planner.html">Planner</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Connect</h4>
+            <ul class="footer-links">
+              <li><a href="contact.html">Email Me</a></li>
+              <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2025 Imtithal Aliyu. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
